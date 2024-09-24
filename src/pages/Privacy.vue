@@ -166,7 +166,4 @@ import Footer from '../components/FooterLayout.vue';
 
         li
             list-style-type: disc
-
-        a
-            color: $primary
 </style>
