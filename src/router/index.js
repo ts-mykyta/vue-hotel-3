@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../pages/Home.vue'
-import Contact from '../pages/Contact.vue'
+import Usa from '../pages/countries/Usa.vue'
 import Privacy from '../pages/Privacy.vue'
 import Terms from '../pages/Terms.vue'
 
@@ -14,10 +14,10 @@ const router = createRouter({
       meta: {title: "Home"}
     },
     {
-      path: '/contact',
-      name: 'contact',
-      component: Contact,
-      meta: {title: "Contact"}
+      path: '/usa',
+      name: 'USA',
+      component: Usa,
+      meta: {title: "USA - Hotels & Casino"}
     },
     {
       path: '/privacy',

@@ -16,7 +16,7 @@ function toggleMenu() {
         <div class="container">
             <div class="header__wrapper">
                 <div class="header__logo">
-                    <router-link to="/about" exact-active-class="header__menu-link--active">
+                    <router-link to="/" exact-active-class="header__menu-link--active">
                         <span>Hotels & Casino</span>
                     </router-link>
                 </div>
@@ -64,6 +64,7 @@ function toggleMenu() {
 @import '../assets/styles/main'
 
 .header
+    background: $white
     color: $blue
     position: relative
     padding: 20px 0
@@ -77,6 +78,7 @@ function toggleMenu() {
     &__logo
         font-family: "Alegreya SC", sans-serif
         font-size: 25px
+        font-weight: 500
         transition: $transition
 
         &:hover
@@ -102,6 +104,9 @@ function toggleMenu() {
             font-weight: 500
             cursor: pointer
 
+            a
+                color: $black
+
             &:hover
                 background: $blue
                 color: $white
@@ -121,6 +126,7 @@ function toggleMenu() {
             width: 100%
             height: 3px
             transition: $transition
+            background: $white
 
     &__contact
         display: none
@@ -129,13 +135,18 @@ function toggleMenu() {
 
 
 .header--home
+    background: inherit
     color: $white
     border-bottom: 1px solid lightgray        
  
     .header__menu
         li
+            a
+                color: $white
+                
             &:hover
                 background: $gray
+            
 
     .header__burger
         background: $white
@@ -199,6 +210,9 @@ function toggleMenu() {
 
             &:hover
                 opacity: .8
+
+        &__burger
+            display: none
     
 
     .header--home      
@@ -206,7 +220,4 @@ function toggleMenu() {
             li
                 &:hover
                     background: none
-
-        .header__burger
-            display: none
 </style>

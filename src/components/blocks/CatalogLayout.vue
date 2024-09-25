@@ -5,7 +5,7 @@ import CatalogElement from './CatalogElement.vue';
 const props = defineProps({
     title: {
         type: String,
-        required: true
+        required: false
     },
 
     elementsData: {
@@ -33,4 +33,16 @@ const props = defineProps({
 
 <style scoped lang="sass">
 @import "../../assets/styles/main"
+
+.catalog
+    padding: 50px 0
+    &__wrapper
+        display: grid
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))
+        gap: 20px
+        justify-items: center
+        justify-content: center
+
+        @media (min-width: 768px)
+            justify-content: start
 </style>
