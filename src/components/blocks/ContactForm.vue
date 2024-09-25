@@ -75,6 +75,7 @@
       font-family: sans-serif
       resize: vertical
       height: 100px
+      resize: none
 
     button
       background-color: #007bff

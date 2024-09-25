@@ -17,13 +17,21 @@ const props = defineProps({
         required: false
     }
 })
+
+
+const scrollToForm = () => {
+  const form = document.getElementById('contact-form');
+  if (form) {
+    form.scrollIntoView({ behavior: 'smooth' });
+  }
+};
 </script>
 
 <template>
     <section class="promo" :class="specialClasses" :style="{ backgroundImage: `url(${props.imgUrl})` }">
         <h1 class="promo__title">{{ title }}</h1>
         <div class="promo__descr">{{ text }}</div>
-        <a href="#" class="promo__contact">Contact us</a>
+        <a @click="scrollToForm" class="promo__contact">Contact us</a>
     </section>
 </template>
 
@@ -52,6 +60,7 @@ const props = defineProps({
             padding: 10px 30px
             background: $blue
             border-radius: 20px
+            cursor: pointer
 
         .promo__title
             font-size: 42px
