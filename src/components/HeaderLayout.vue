@@ -142,7 +142,7 @@ function toggleMenu() {
     .header__menu
         li
             a
-                color: $white
+                color: $gray
                 
             &:hover
                 background: $gray
@@ -218,6 +218,8 @@ function toggleMenu() {
     .header--home      
         .header__menu
             li
+                a
+                    color: $white
                 &:hover
                     background: none
 </style>
