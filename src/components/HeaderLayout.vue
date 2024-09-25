@@ -137,7 +137,10 @@ function toggleMenu() {
 .header--home
     background: inherit
     color: $white
-    border-bottom: 1px solid lightgray        
+    border-bottom: 1px solid lightgray 
+    position: absolute
+    top: 0
+    width: 100%       
  
     .header__menu
         li

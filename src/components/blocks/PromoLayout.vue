@@ -23,6 +23,7 @@ const props = defineProps({
     <section class="promo" :class="specialClasses" :style="{ backgroundImage: `url(${props.imgUrl})` }">
         <h1 class="promo__title">{{ title }}</h1>
         <div class="promo__descr">{{ text }}</div>
+        <a href="#" class="promo__contact">Contact us</a>
     </section>
 </template>
 
@@ -39,8 +40,28 @@ const props = defineProps({
     justify-content: center
     align-items: center
 
+    &__contact
+        display: none
+
     &--home
         height: 100vh
+
+        .promo__contact 
+            display: flex
+            color: $white
+            padding: 10px 30px
+            background: $blue
+            border-radius: 20px
+
+        .promo__title
+            font-size: 42px
+            max-width: 100%
+
+            @media (min-width: 768px)
+                font-size: 72px
+
+        .promo__descr
+            font-size: 22px
 
     &__title
         color: #fff
@@ -61,6 +82,7 @@ const props = defineProps({
         line-height: 30px
         text-align: center
         padding: 0 10px
+        margin-bottom: 20px
 
 
 @media (max-width: 420px)
