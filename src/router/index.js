@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../pages/Home.vue'
+import About from '../pages/About.vue'
 import HotelDetail from '../pages/HotelDetail.vue'
 import Usa from '../pages/countries/Usa.vue'
 import Privacy from '../pages/Privacy.vue'
@@ -12,14 +13,20 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: Home,
-      meta: {title: "Home"}
+      meta: {title: "Home - Hotels & Casino"}
+    },
+    {
+      path: '/about',
+      name: 'about',
+      component: About,
+      meta: {title: "About Us - Hotels & Casino"}
     },
     {
       path: '/hotel/:id',
       name: 'HotelDetail',
       component: HotelDetail,
       props: true,
-      meta: {title: "Home"}
+      meta: {title: "Details - Hotels & Casino"}
     },
     {
       path: '/usa',
@@ -31,13 +38,13 @@ const router = createRouter({
       path: '/privacy',
       name: 'privacy',
       component: Privacy,
-      meta: {title: "Privacy Policy"}
+      meta: {title: "Privacy Policy - Hotels & Casino"}
     },
     {
       path: '/terms',
       name: 'terms',
       component: Terms,
-      meta: {title: "Terms"}
+      meta: {title: "Terms - Hotels & Casino"}
     },
   ],
   scrollBehavior(to, from, savedPosition) {
