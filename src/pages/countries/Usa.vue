@@ -11,31 +11,31 @@ const hotelsData = [
         "imgUrl": "/assets/img/test_hotel.jpg",
         "hotelName": "Bellagio Resort & Casino, Las Vegas",
         "hotelDescr": "Bellagio Resort & Casino, Las Vegas, Nevada: Immerse yourself in the heart of Las Vegas luxury at Bellagio Resort & Casino, an iconic landmark famed for its exquisite gardens and b…",
-        "hotelLinkDetail": "usa/hotel/1",
+        "hotelLinkDetail": "/hotel/1",
         "hotelLink": "some_url"
     },
     {
-        "id": 1,
+        "id": 2,
         "imgUrl": "/assets/img/test_hotel.jpg",
         "hotelName": "Bellagio Resort & Casino, Las Vegas",
         "hotelDescr": "Bellagio Resort & Casino, Las Vegas, Nevada: Immerse yourself in the heart of Las Vegas luxury at Bellagio Resort & Casino, an iconic landmark famed for its exquisite gardens and b…Bellagio Resort & Casino, Las Vegas, Nevada: Immerse yourself in the heart of Las Vegas luxury at Bellagio Resort & Casino, an iconic landmark famed for its exquisite gardens and b",
-        "hotelLinkDetail": "usa/hotel/1",
+        "hotelLinkDetail": "/hotel/2",
         "hotelLink": "some_url"
     },
     {
-        "id": 1,
+        "id": 3,
         "imgUrl": "/assets/img/test_hotel.jpg",
         "hotelName": "Bellagio Resort & Casino, Las Vegas",
         "hotelDescr": "Bellagio Resort & Casino, Las Vegas, Nevada: Immerse yourself in the heart of Las Vegas luxury at Bellagio Resort & Casino, an iconic landmark famed for its exquisite gardens and b…",
-        "hotelLinkDetail": "usa/hotel/1",
+        "hotelLinkDetail": "/hotel/3",
         "hotelLink": "some_url"
     },
     {
-        "id": 1,
+        "id": 4,
         "imgUrl": "/assets/img/test_hotel.jpg",
         "hotelName": "Bellagio Resort & Casino, Las Vegas",
         "hotelDescr": "Bellagio Resort & Casino, Las Vegas, Nevada: Immerse yourself in the heart of Las Vegas luxury at Bellagio Resort & Casino, an iconic landmark famed for its exquisite gardens and b…",
-        "hotelLinkDetail": "usa/hotel/1",
+        "hotelLinkDetail": "/hotel/4",
         "hotelLink": "some_url"
     },
 ]

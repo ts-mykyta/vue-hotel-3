@@ -1,27 +1,32 @@
 <script setup>
+import { useRouter } from 'vue-router'
+
 const props = defineProps({
     elementData: {
         type: Object,
         required: true
     }
 })
+
+const router = useRouter()
+
+const goToHotelDetail = () => {
+  router.push({ name: 'HotelDetail', params: { id: props.elementData.id } })
+}
 </script>
 
 <template>
-<div class="hotel">
-    <router-link :to="elementData.hotelLinkDetail" exact-active-class="hotel__overlay">
-        <div class="hotel__img">
-            <img :src="elementData.imgUrl" alt="hotel">
-        </div>
+<div class="hotel" @click="goToHotelDetail">
+    <div class="hotel__img">
+        <img :src="elementData.imgUrl" alt="hotel">
+    </div>
 
-        <div class="hotel__descr">
-            <h3 class="hotel__title">{{ elementData.hotelName }}</h3>
-            <p>{{ elementData.hotelDescr }}</p>
-        </div>
+    <div class="hotel__descr">
+        <h2 class="hotel__title">{{ elementData.hotelName }}</h2>
+        <p>{{ elementData.hotelDescr }}</p>
+    </div>
 
-        <div class="hotel__btn">Read More</div>
-
-    </router-link>
+    <div class="hotel__btn">Read More</div>
 </div>
 </template>
 
@@ -34,6 +39,7 @@ const props = defineProps({
     background: $white
     border-radius: 8px
     position: relative
+    cursor: pointer
 
     &__img
         width: 100%
@@ -67,7 +73,7 @@ const props = defineProps({
         display: flex
         justify-content: center
         align-items: center
-        padding: 10px
+        padding: 15px
         text-transform: uppercase
         color: $white
         font-size: 14px
