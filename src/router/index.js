@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../pages/Home.vue'
+import HotelDetail from '../pages/HotelDetail.vue'
 import Usa from '../pages/countries/Usa.vue'
 import Privacy from '../pages/Privacy.vue'
 import Terms from '../pages/Terms.vue'
@@ -11,6 +12,13 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: Home,
+      meta: {title: "Home"}
+    },
+    {
+      path: '/hotel/:id',
+      name: 'HotelDetail',
+      component: HotelDetail,
+      props: true,
       meta: {title: "Home"}
     },
     {
