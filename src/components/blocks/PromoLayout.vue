@@ -30,7 +30,7 @@ const props = defineProps({
 @import "../../assets/styles/main"
     
 .promo
-    height: 600px
+    height: 350px
     background-position: center center
     background-size: cover
 
@@ -44,8 +44,10 @@ const props = defineProps({
 
     &__title
         color: #fff
-        font-size: 52px
-        font-weight: 700
+        font-size: 36px
+        font-weight: 600
+        font-family: "Alegreya SC", sans-serif
+        text-transform: uppercase
         max-width: 800px
         margin-bottom: 20px
         text-align: center
