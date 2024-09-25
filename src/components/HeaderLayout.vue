@@ -1,57 +1,38 @@
 <script setup>
-import { useRoute, useRouter } from 'vue-router';
-import { ref, computed, onMounted, onBeforeUnmount, nextTick } from 'vue';
+import { useRoute } from 'vue-router';
+import { ref, computed, watchEffect } from 'vue';
+import ContactPopup from './ContactPopup.vue';
+
 
 const isMenuActive = ref(false);
 const route = useRoute();
-const router = useRouter();
 const isHomePage = computed(() => route.path === '/');
-const scrollToContactAfterNavigation = ref(false);
-let unwatchRouteChange;
 
 function toggleMenu() {
   isMenuActive.value = !isMenuActive.value;
 }
 
-function scrollToContact() {
-  if (isHomePage.value) {
-    scrollToForm();
+function openContactPopup() {
+    openPopup();
+}
+
+// Popup
+const visible = ref(false);
+
+function showPopup() {
+  visible.value = true; // Показываем попап
+}
+
+function closePopup() {
+  visible.value = false; // Скрываем попап
+}
+
+watchEffect(() => {
+  if (isMenuActive.value) {
+    document.querySelector(".overlay").classList.add('overlay--active');
   } else {
-    scrollToContactAfterNavigation.value = true;
-    router.push('/');
+    document.querySelector(".overlay").classList.remove('overlay--active');
   }
-}
-
-function scrollToForm() {
-  nextTick(() => {
-    const element = document.getElementById('contact-form');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  });
-}
-
-function setupRouteWatcher() {
-  unwatchRouteChange = router.afterEach((to) => {
-    if (scrollToContactAfterNavigation.value && to.path === '/') {
-      scrollToForm();
-      scrollToContactAfterNavigation.value = false;
-    }
-  });
-}
-
-function removeRouteWatcher() {
-  if (unwatchRouteChange) {
-    unwatchRouteChange();
-  }
-}
-
-onMounted(() => {
-  setupRouteWatcher();
-});
-
-onBeforeUnmount(() => {
-  removeRouteWatcher();
 });
 </script>
 
@@ -90,7 +71,7 @@ onBeforeUnmount(() => {
                     </ul>
                 </nav>
 
-                <div class="header__contact" @click="scrollToContact">
+                <div class="header__contact" @click="showPopup">
                     Contact Us
                 </div>
 
@@ -101,6 +82,8 @@ onBeforeUnmount(() => {
                 </div>
             </div>
         </div>
+
+        <ContactPopup :visible="visible" @close="closePopup" />
     </header>
 </template>
 
