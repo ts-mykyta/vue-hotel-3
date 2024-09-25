@@ -1,14 +1,58 @@
 <script setup>
-import { useRoute } from 'vue-router';
-import { ref, watchEffect, computed } from 'vue';
+import { useRoute, useRouter } from 'vue-router';
+import { ref, computed, onMounted, onBeforeUnmount, nextTick } from 'vue';
 
 const isMenuActive = ref(false);
 const route = useRoute();
-const isHomePage = computed(() => route.path === '/'); 
+const router = useRouter();
+const isHomePage = computed(() => route.path === '/');
+const scrollToContactAfterNavigation = ref(false);
+let unwatchRouteChange;
 
 function toggleMenu() {
   isMenuActive.value = !isMenuActive.value;
 }
+
+function scrollToContact() {
+  if (isHomePage.value) {
+    scrollToForm();
+  } else {
+    scrollToContactAfterNavigation.value = true;
+    router.push('/');
+  }
+}
+
+function scrollToForm() {
+  nextTick(() => {
+    const element = document.getElementById('contact-form');
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  });
+}
+
+function setupRouteWatcher() {
+  unwatchRouteChange = router.afterEach((to) => {
+    if (scrollToContactAfterNavigation.value && to.path === '/') {
+      scrollToForm();
+      scrollToContactAfterNavigation.value = false;
+    }
+  });
+}
+
+function removeRouteWatcher() {
+  if (unwatchRouteChange) {
+    unwatchRouteChange();
+  }
+}
+
+onMounted(() => {
+  setupRouteWatcher();
+});
+
+onBeforeUnmount(() => {
+  removeRouteWatcher();
+});
 </script>
 
 <template>
@@ -46,7 +90,7 @@ function toggleMenu() {
                     </ul>
                 </nav>
 
-                <div class="header__contact">
+                <div class="header__contact" @click="scrollToContact">
                     Contact Us
                 </div>
 

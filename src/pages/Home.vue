@@ -51,7 +51,7 @@ import ContactForm from '../components/blocks/ContactForm.vue';
             </div>
         </section>
 
-        <ContactForm />
+        <ContactForm id="contact-form" />
     </main>
     <Footer />
 </template>
