@@ -2,7 +2,6 @@
 import Header from '../components/HeaderLayout.vue';
 import Footer from '../components/FooterLayout.vue';
 import Promo from '../components/blocks/PromoLayout.vue';
-import Catalog from '../components/blocks/CatalogLayout.vue';
 import ContactForm from '../components/blocks/ContactForm.vue';
 
 
