@@ -20,11 +20,11 @@ function openContactPopup() {
 const visible = ref(false);
 
 function showPopup() {
-  visible.value = true; // Показываем попап
+  visible.value = true;
 }
 
 function closePopup() {
-  visible.value = false; // Скрываем попап
+  visible.value = false;
 }
 
 watchEffect(() => {

@@ -7,7 +7,7 @@
         <div class="contact-form" id="contact-form">
             <h2>CONTACT US NOW</h2>
             <p>If you have any questions, please send us a message or send us an email to 
-                <a href="mailto:support@casinolistingsca.com">support@casinolistingsca.com</a>, 
+                <a href="mailto:support@hotelscasinotop.com">support@hotelscasinotop.com</a>, 
                 and we will respond to your message as promptly as possible.
             </p>
             <form>
