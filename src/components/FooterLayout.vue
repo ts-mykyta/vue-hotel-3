@@ -1,7 +1,22 @@
 <script setup>
+import { ref} from 'vue';
+import ContactPopup from './ContactPopup.vue';
+
 function getCurrentYear() {
     return new Date().getFullYear();
 }
+
+// Popup
+const visible = ref(false);
+
+function showPopup() {
+  visible.value = true;
+}
+
+function closePopup() {
+  visible.value = false;
+}
+
 </script>
 
 <template>
@@ -30,9 +45,7 @@ function getCurrentYear() {
                     </router-link>
                 </li>
                 <li class="header__menu-link">
-                    <router-link to="/contact" exact-active-class="header__menu-link--active">
-                        <span>Contact Us</span>
-                    </router-link>
+                    <span @click="showPopup">Contact Us</span>
                 </li>
             </ul>
 
@@ -41,6 +54,8 @@ function getCurrentYear() {
                 Copyright © {{ getCurrentYear() }} Hotels & Casinos
             </div>
         </div>
+
+        <ContactPopup :visible="visible" @close="closePopup" />
     </footer>
 </template>
 
@@ -69,6 +84,9 @@ function getCurrentYear() {
         flex-wrap: wrap
         gap: 10px
         margin-bottom: 10px
+
+        li
+            cursor: pointer
 
     &__copyright
         text-align: center

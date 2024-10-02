@@ -37,6 +37,14 @@ const scrollToForm = () => {
 
 <style scoped lang="sass">
 @import "../../assets/styles/main"
+
+@keyframes promoscale
+    0%
+        transform: scale(1)
+    50%
+        transform: scale(1.1)
+    100%
+        transform: scale(1)
     
 .promo
     height: 350px
@@ -53,6 +61,7 @@ const scrollToForm = () => {
 
     &--home
         height: 100vh
+        animation: promoscale ease-in 18s infinite
 
         .promo__contact 
             display: flex
@@ -64,13 +73,15 @@ const scrollToForm = () => {
 
         .promo__title
             font-size: 42px
-            max-width: 100%
+            max-width: 1100px
 
             @media (min-width: 768px)
                 font-size: 72px
 
         .promo__descr
             font-size: 22px
+            width: 100%
+            max-width: 1150px
 
     &__title
         color: #fff

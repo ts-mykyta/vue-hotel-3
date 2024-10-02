@@ -59,12 +59,12 @@ import ContactForm from '../components/blocks/ContactForm.vue';
 @import "../assets/styles/main"
 
 .top
-    padding: 50px 0
+    padding: 70px 0
     h2
         color: $white
         text-align: center
         font-family: "Alegreya SC", sans-serif
-        font-size: 34px
+        font-size: 46px
         font-weight: 500
         margin-bottom: 10px
 
@@ -93,6 +93,8 @@ import ContactForm from '../components/blocks/ContactForm.vue';
         display: flex
         justify-content: center
         align-items: center
+        font-size: 28px
+        text-transform: uppercase
         background: $blue
         color: $white
         padding: 20px 0
