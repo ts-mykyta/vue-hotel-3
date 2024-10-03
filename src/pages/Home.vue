@@ -23,7 +23,7 @@ import ContactForm from '../components/blocks/ContactForm.vue';
                 <h2>Top Casino Hotels</h2>
                 <div class="top__wrapper">
                     <div class="country">
-                        <router-link to="/usa" exact-active-class="country__link">
+                        <router-link to="/australia" exact-active-class="country__link">
                             <div class="country__img">
                                 <img src="/assets/img/australia/mindil-beach-casino-resort.jpg" alt="">
                             </div>
@@ -31,7 +31,7 @@ import ContactForm from '../components/blocks/ContactForm.vue';
                         </router-link>
                     </div>
                     <div class="country">
-                        <router-link to="/usa" exact-active-class="country__link">
+                        <router-link to="/canada" exact-active-class="country__link">
                             <div class="country__img">
                                 <img src="/assets/img/canada/radisson-blu-toronto-downtown.jpg" alt="">
                             </div>
