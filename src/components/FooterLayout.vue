@@ -25,6 +25,7 @@ function closePopup() {
             <div class="footer__logo">
                 <router-link to="/" exact-active-class="header__menu-link--active">
                     <span>Hotels & Casinos</span>
+                    <div style="text-align: center; margin-top: -10px;">Top</div>
                 </router-link>
             </div>
 

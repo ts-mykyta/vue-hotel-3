@@ -49,45 +49,45 @@ const hotelsData = [
   },
   {
     id: 7,
-    imgUrl: "/assets/img/canada/.jpg",
-    hotelName: "",
-    hotelDescr: "",
-    siteLink: ""
+    imgUrl: "/assets/img/canada/grey-eagle-resort-casino.jpg",
+    hotelName: "Grey Eagle Resort & Casino",
+    hotelDescr: "Grey Eagle Resort & Casino, located in Calgary's SW and only minutes from downtown, here you will be sitting on the doorstep of the Rockies with unparalleled comfort and amenities. In addition to our resort, a 2,500 seat Event Center for concerts, large trade shows, conventions, and meetings. The resort offers complimentary parking, Wi-Fi, indoor pool, outdoor hot tub and a spacious state-of-the-art fitness centre. Our casino is one of Alberta's most popular, featuring a modern design with elegance that flows through the entire resort. The resort has everything you could need at a home away from home. Attractions nearby include Chinook Centre Mall, The World Famous Stampede Park, Calaway Park, Canada Olympic Park, the Calgary Zoo, Heritage Park, Glenmore Reservoir, Trail System, Kananaskis Country and much more. Welcome to a completely new experience here at Calgary's first class resort and casino.",
+    siteLink: "https://www.greyeagleresortandcasino.ca/"
   },
   {
     id: 8,
-    imgUrl: "/assets/img/canada/.jpg",
-    hotelName: "",
-    hotelDescr: "",
-    siteLink: ""
+    imgUrl: "/assets/img/canada/camrose-resort-casino-hotel.jpg",
+    hotelName: "Camrose Resort Casino Hotel",
+    hotelDescr: "With the Camrose Resort Casino Hotel, the entertainment is steps away whether guests are in the mood for casino fun or need banquet space for an exquisite event. Being the leading full service hotel in Camrose they match top of the line accommodations with entertainment options for everyone. Enjoy live entertainment, so guests never have to go far (or even leave the hotel) for a night to remember. Banquet facilities are available for special events, a favorite for weddings, birthdays and corporate meetings. With a pool and waterslide on site as well, it is ideal for family vacations and promises a great time for all ages. However, guests who want to explore beyond the walls of the facility will find downtown shopping and dinner theatre options just a few kilometers away. Whether travelers prefer a game of golf to complement their trip or checking out the local attractions, simply ask a helpful staff member for tips and recommendations.",
+    siteLink: "https://www.camroseresortcasino.com/"
   },
   {
     id: 9,
-    imgUrl: "/assets/img/canada/.jpg",
-    hotelName: "",
-    hotelDescr: "",
-    siteLink: ""
+    imgUrl: "/assets/img/canada/eugene-golf.jpg",
+    hotelName: "St. Eugene Golf Resort & Casino",
+    hotelDescr: "Framed by the Rockies, the Purcell’s and the famous St Mary River, the St. Eugene Golf Resort & Casino is a spectacular destination for getaways, vacations, conferences, retreats and weddings. The resort is located 10 minutes from Cranbrook, 5 minutes from the Cranbrook Rockies International Airport and 20 minutes from the picturesque town of Kimberley. Within its historic walls and the connecting Lodge are beautifully appointed, elegant guestrooms and conference facilities. Within the Resort lies the Interpretive Centre, operated by The Ktunaxa Nation Council. Daily tours allow guests to learn more about the building’s fascinating history, people, and culture found only in this part of the world. St. Eugene offers a wealth of culinary experiences to please the palate and delight the senses of each guest. With 4 spectacular onsite food and beverage choices including informal fine dining in Numa, overlooking the sun-drenched deck and golf course. Or wind down with a glass of wine at our refined cozy Numa Lounge. For individuals looking for a more relaxed setting, simply enjoy the 19th Hole Bar & Grill, located at the St. Eugene Golf Course. Also on site is the newly renovated Casino of the Rockies – The bold, nature-based design concept pays homage to the Ktunaxa First Nations’ connection to the earth, and highlights flora and fauna native to the mountains and foothills in our backyard.",
+    siteLink: "https://www.steugene.ca/"
   },
   {
     id: 10,
-    imgUrl: "/assets/img/canada/.jpg",
-    hotelName: "",
-    hotelDescr: "",
-    siteLink: ""
+    imgUrl: "/assets/img/canada/the-omni-king-edward.jpg",
+    hotelName: "The Omni King Edward Hotel",
+    hotelDescr: "Located in the heart of Downtown Toronto, ON, The Omni King Edward Hotel is a legendary urban oasis. Built in 1903 and re-imagined for the 21st century, this elegant hotel features a fine dining restaurant, posh bar, and afternoon tea. Discover retail shops, including a tailor, coffee lounge, salon, and spa. Walk to the King subway station in two minutes and explore numerous boutiques, restaurants, and entertainment venues nearby. Our prime location in Toronto's financial district provides you convenient access to the city's top attractions including the Metro Toronto Convention Centre, Sony Centre, Eaton Centre and Distillery District. If you're searching for a wedding venue, The Omni King Edward Hotel offers three beautiful ballrooms and a magical setting for a downtown Toronto wedding. From weddings to meetings in one of our 13 spacious conference rooms, The Omni King Edward Hotel has the spaces to accommodate all of your events.",
+    siteLink: "https://www.omnihotels.com/hotels/toronto-king-edward"
   },
   {
     id: 11,
-    imgUrl: "/assets/img/canada/.jpg",
-    hotelName: "",
-    hotelDescr: "",
-    siteLink: ""
+    imgUrl: "/assets/img/canada/hotel-omni-mont-royal.jpg",
+    hotelName: "Hotel Omni Mont-Royal",
+    hotelDescr: "Situated on Sherbrooke Street in downtown Montreal's historic district near McGill University, Hotel Omni Mont-Royal is an elegant high-rise. With never more than 12 rooms per floor, the hospitality experience is enhanced by luxurious and comforting loft style guestrooms. Towering over Mont-Royal Park, the hotel features a French cafe and vibrant bar. There's also a fitness center and seasonal outdoor pool, plus 23,000 square feet of meeting space. Book your stay at Hotel Omni Mont Royal within the Golden Square Mile's historical district and enjoy close proximity to Montreal's Old Town and easy access to metro stations. You will also be footsteps away from Montreal's finest shopping, dining, art galleries and more. Whether you are looking for romance or family fun, we have a hotel package that will let you experience the charm of Quebec, Canada. If you're looking for a romantic destination in Canada, Hotel Omni Mont-Royal is an ideal spot.",
+    siteLink: "https://www.omnihotels.com/hotels/montreal-mont-royal"
   },
   {
     id: 12,
-    imgUrl: "/assets/img/canada/.jpg",
-    hotelName: "",
-    hotelDescr: "",
-    siteLink: ""
+    imgUrl: "/assets/img/canada/radisson-blu-toronto-downtown.jpg",
+    hotelName: "Radisson Blu Toronto Downtown",
+    hotelDescr: "At the Radisson Blu Toronto Downtown, you're at the centre of the city! Our hotel puts you within steps of the Entertainment District and attractions like the CN Tower, Rogers Centre, St. Lawrence Market, Metro Toronto Convention Centre, Union Station, Billy Bishop Toronto City Airport and Centre Island - just to name a few. Start your day right with a scrumptious breakfast at The View, our breakfast restaurant. When you're done exploring the sights, relax under the sun at Lakeview Pool Lounge, our rooftop pool with the best view of the CN Tower!",
+    siteLink: "https://www.choicehotels.com/ontario/toronto/radisson-blu-hotels/cnc41"
   },
   {
     id: 13,

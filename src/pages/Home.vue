@@ -23,17 +23,17 @@ import ContactForm from '../components/blocks/ContactForm.vue';
                 <h2>Top Casino Hotels</h2>
                 <div class="top__wrapper">
                     <div class="country">
-                        <router-link to="/usa" exact-active-class="country__link">
+                        <router-link to="/australia" exact-active-class="country__link">
                             <div class="country__img">
-                                <img src="/assets/img/home/test_hot.jpg" alt="">
+                                <img src="/assets/img/australia/mindil-beach-casino-resort.jpg" alt="">
                             </div>
                             <h3 class="country__title">Australia</h3>     
                         </router-link>
                     </div>
                     <div class="country">
-                        <router-link to="/usa" exact-active-class="country__link">
+                        <router-link to="/canada" exact-active-class="country__link">
                             <div class="country__img">
-                                <img src="/assets/img/home/test_hot.jpg" alt="">
+                                <img src="/assets/img/canada/radisson-blu-toronto-downtown.jpg" alt="">
                             </div>
                             <h3 class="country__title">Canada</h3>     
                         </router-link>
@@ -41,7 +41,7 @@ import ContactForm from '../components/blocks/ContactForm.vue';
                     <div class="country">
                         <router-link to="/usa" exact-active-class="country__link">
                             <div class="country__img">
-                                <img src="/assets/img/home/test_hot.jpg" alt="">
+                                <img src="/assets/img/usa/m-resort-spa.jpg" alt="">
                             </div>
                             <h3 class="country__title">USA</h3>     
                         </router-link>
@@ -78,9 +78,11 @@ import ContactForm from '../components/blocks/ContactForm.vue';
 
 .country
     max-width: 340px
+    width: 100%
 
     &__img
         width: 100%
+        height: 200px
         margin-bottom: -6px
         
         img

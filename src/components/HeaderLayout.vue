@@ -43,6 +43,7 @@ watchEffect(() => {
                 <div class="header__logo">
                     <router-link to="/" exact-active-class="header__menu-link--active">
                         <span>Hotels & Casino</span>
+                        <div style="text-align: center; margin-top: -10px;">Top</div>
                     </router-link>
                 </div>
 
@@ -115,7 +116,7 @@ watchEffect(() => {
         position: absolute
         width: 100%
         left: 0
-        top: 70px
+        top: 100px
         opacity: 0
         visibility: hidden
         background: $white
