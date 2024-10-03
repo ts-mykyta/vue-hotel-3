@@ -49,10 +49,87 @@ const hotelsData = [
   },
   {
     id: 7,
-    imgUrl: "/assets/img/usa/.jpg",
+    imgUrl: "/assets/img/canada/.jpg",
     hotelName: "",
     hotelDescr: "",
     siteLink: ""
+  },
+  {
+    id: 8,
+    imgUrl: "/assets/img/canada/.jpg",
+    hotelName: "",
+    hotelDescr: "",
+    siteLink: ""
+  },
+  {
+    id: 9,
+    imgUrl: "/assets/img/canada/.jpg",
+    hotelName: "",
+    hotelDescr: "",
+    siteLink: ""
+  },
+  {
+    id: 10,
+    imgUrl: "/assets/img/canada/.jpg",
+    hotelName: "",
+    hotelDescr: "",
+    siteLink: ""
+  },
+  {
+    id: 11,
+    imgUrl: "/assets/img/canada/.jpg",
+    hotelName: "",
+    hotelDescr: "",
+    siteLink: ""
+  },
+  {
+    id: 12,
+    imgUrl: "/assets/img/canada/.jpg",
+    hotelName: "",
+    hotelDescr: "",
+    siteLink: ""
+  },
+  {
+    id: 13,
+    imgUrl: "/assets/img/australia/mindil-beach-casino-resort.jpg",
+    hotelName: "Mindil Beach Casino Resort",
+    hotelDescr: "Mindil Beach Casino Resort is a highly recommended hotel with wonderful and uninterrupted ocean views, making it an ideal place to stay and catch the sunset. The hotel has a great location, close to Mindil Markets and the casino and a five-minute drive from the CBD. The breakfast menu is great and the table service adds to the overall experience. Dinner options are fantastic, especially at Vue restaurant and guests appreciate the excellent staff, food and reasonable prices. The hotel has comfortable and clean rooms, although some feel that they are outdated and require refurbishment. Housekeeping standards vary for some, while others were impressed by how clean and spotless the rooms were. The hotel staff is very friendly and helpful and the pools are an amazing highlight. The private beach area and proximity to the Mindil Beach Market are added bonuses, although noise from the pool can be an issue. While some guests had issues with the casino, most reviews of the casino are positive.",
+    siteLink: "https://www.mindilbeachcasinoresort.com.au/"
+  },
+  {
+    id: 14,
+    imgUrl: "/assets/img/australia/pullman-reef-hotel-casino.jpg",
+    hotelName: "Pullman Reef Hotel Casino",
+    hotelDescr: "Featuring elegant rooms with a spa bath and a balcony overlooking Cairns or Trinity Inlet, Pullman Reef Hotel is only 250 metres from Cairns Esplanade. It features a casino and 4 bars with live music. The modern air-conditioned rooms have flat-screen cable TV and a tea and coffee maker. Each room has a large bathroom with luxury C.O. Bigelow toiletries. Pullman Reef Hotel Casino is 5 minutes’ walk from Cairns Convention Centre, and 15 minutes’ drive from Cairns Airport. Pullman Reef Hotel features a rooftop swimming pool, spa pool and sauna. The tour desk can arrange activities such as diving and snorkeling, and day trips to the Great Barrier Reef. The award-winning Tamarind Restaurant features Thai-inspired fusion cuisine. Flinders Bar & Grill offers light meals in a casual setting.",
+    siteLink: "https://www.reefcasino.com.au/"
+  },
+  {
+    id: 15,
+    imgUrl: "/assets/img/australia/big4.jpg",
+    hotelName: "BIG4 Casino Holiday Park",
+    hotelDescr: "BIG4 Casino Holiday Park is situated in the Richmond Valley on the north coast of NSW, just a 4-minute drive from the Casino town centre and the Richmond River. The property is uniquely set on the grounds of the former Casino Airport, with the original buildings and existing section of runway to explore. The holiday park offers a range of accommodation options including cottages which are styled to mirror the natural surrounds and a variety of spacious sites, large enough to accommodate a caravan, boat or RV. The town of Casino is known as the 'Beef Capital' of Australia and hosts the community festival of Beef Week annually in the last week of May. Guests can also visit the surrounding national parks as well as the historic and art deco buildings of Casino, which can be enjoyed on the 40-minute Heritage Walk. Guests may also choose to take a walk or enjoy a picnic along the Richmond River before heading to the Platypus Pool, where you may be lucky enough to see a platypus. BIG4 Casino Holiday Park is a 2-hour drive from the Gold Coast and a 3-hour drive from Brisbane. The nearest airport is Lismore Airport, 28 km from the property.",
+    siteLink: "https://www.big4.com.au/caravan-parks/nsw/northern-rivers/big4-casino-holiday-park"
+  },
+  {
+    id: 16,
+    imgUrl: "/assets/img/australia/adelaide-casino.webp",
+    hotelName: "Adelaide Casino",
+    hotelDescr: "Located in Southern Australia, the Adelaide Casino is situated on the banks of the River Torrens. The casino offers you a mesmerizing experience with its Sky Channel feature and information touch screens. The Adelaide Casino provides a thrilling gaming experience with a wide range of table games like Blackjack, Caribbean Stud, Baccarat, Vegas Star Roulette, Poker, Rapid Roulette and much more. At an average, the casino provides to its customers 15 jackpot wins in a week- something you’ll not get to avail at any other casino! An additional feature of the casino is its poker zone, providing you with the option of playing tournaments or cash games. Add one more on that – the Adelaide Casino is provided with VIP Gaming Program also- The Grange Room, The Black Room, and The Platinum Room.",
+    siteLink: "https://skycityadelaide.com.au/"
+  },
+  {
+    id: 17,
+    imgUrl: "/assets/img/australia/casino-canberra.webp",
+    hotelName: "Casino Canberra",
+    hotelDescr: "The Casino Canberra was the first ever Casino established in the Australian continent. Though it is perhaps the only casino in Australia that doesn’t have the license for operating poker machines, it tries its best to provide a promising experience to its customers by providing a good variety of games. As a token of love, the Casino Canberra offers a program named the Infinity Reward to its customers, which they can use to benefit themselves on the offers on food, gifts, accommodation and much more. The customers are awarded points in their Infinity Reward card at the end of every game that they have played, depending on the type of game and the duration for which it has been played.",
+    siteLink: "https://casinocanberra.com.au/"
+  },
+  {
+    id: 18,
+    imgUrl: "/assets/img/australia/country-club-casino.webp",
+    hotelName: "Country Club Casino",
+    hotelDescr: "With a prime location in Tasmania, the Country Club Casino provides a phenomenal experience of the beautiful Tamar Valley. It provides you with a choice of two types of accommodation: Country Club Resort and Country Club Villas. The Country Club Resort provides you with the basic facilities like Wi-Fi, parking, bar, newspaper, swimming pool and a Golf course assuring supreme quality and comfort at your end. The Country Club Villa, on the other hand, provides you with the on-site facilities of the fitness center, spa, tennis court, and an indoor swimming pool- all at your door. It offers accommodation in the form of 1, 2 and 3 bedroom suites.",
+    siteLink: "https://countryclubtasmania.com.au/casino/"
   },
 ]
 

@@ -43,6 +43,7 @@ const goToHotelDetail = () => {
 
     &__img
         width: 100%
+        height: 220px
         img
             width: 100%
             height: 100%
