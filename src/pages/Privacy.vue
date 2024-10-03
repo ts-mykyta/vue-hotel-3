@@ -174,7 +174,7 @@ import Footer from '../components/FooterLayout.vue';
     background: $white
     padding: 10px
     @media (min-width: 768px)
-    padding: 80px
+        padding: 80px
 
     &__title
         font-size: 34px
