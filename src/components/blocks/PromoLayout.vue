@@ -73,7 +73,7 @@ const scrollToForm = () => {
 
         .promo__title
             font-size: 42px
-            max-width: 1100px
+            max-width: 1300px
 
             @media (min-width: 768px)
                 font-size: 72px

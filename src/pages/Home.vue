@@ -12,8 +12,8 @@ import ContactForm from '../components/blocks/ContactForm.vue';
     <Header />
     <main class="main">
         <Promo 
-            title="Exclusive Casino Hotel Stays" 
-            text="Spoil in unparalleled luxury and entertainment with our exclusive casino hotel stays, offering world-class amenities and unforgettable experiences"
+            title="Luxury Casino Hotel Getaways" 
+            text="Indulge in unrivaled luxury and entertainment with our exclusive casino hotel stays, featuring premium amenities and unforgettable experiences."
             imgUrl="/assets/img/home/home_promo.jpeg"
             specialClasses="promo--home"
         />

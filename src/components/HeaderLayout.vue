@@ -55,13 +55,13 @@ watchEffect(() => {
                             </router-link>
                         </li>
                         <li class="header__menu-link">
-                            <router-link to="/canada" exact-active-class="header__menu-link--active">
-                                <span>Canada</span>
+                            <router-link to="/australia" exact-active-class="header__menu-link--active">
+                                <span>Australia</span>
                             </router-link>
                         </li>
                         <li class="header__menu-link">
-                            <router-link to="/australia" exact-active-class="header__menu-link--active">
-                                <span>Australia</span>
+                            <router-link to="/canada" exact-active-class="header__menu-link--active">
+                                <span>Canada</span>
                             </router-link>
                         </li>
                         <li class="header__menu-link">
