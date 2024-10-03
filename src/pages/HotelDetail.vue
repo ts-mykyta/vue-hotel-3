@@ -49,7 +49,84 @@ const hotelsData = [
   },
   {
     id: 7,
-    imgUrl: "/assets/img/usa/.jpg",
+    imgUrl: "/assets/img/canada/.jpg",
+    hotelName: "",
+    hotelDescr: "",
+    siteLink: ""
+  },
+  {
+    id: 8,
+    imgUrl: "/assets/img/canada/.jpg",
+    hotelName: "",
+    hotelDescr: "",
+    siteLink: ""
+  },
+  {
+    id: 9,
+    imgUrl: "/assets/img/canada/.jpg",
+    hotelName: "",
+    hotelDescr: "",
+    siteLink: ""
+  },
+  {
+    id: 10,
+    imgUrl: "/assets/img/canada/.jpg",
+    hotelName: "",
+    hotelDescr: "",
+    siteLink: ""
+  },
+  {
+    id: 11,
+    imgUrl: "/assets/img/canada/.jpg",
+    hotelName: "",
+    hotelDescr: "",
+    siteLink: ""
+  },
+  {
+    id: 12,
+    imgUrl: "/assets/img/canada/.jpg",
+    hotelName: "",
+    hotelDescr: "",
+    siteLink: ""
+  },
+  {
+    id: 13,
+    imgUrl: "/assets/img/australia/.jpg",
+    hotelName: "",
+    hotelDescr: "",
+    siteLink: ""
+  },
+  {
+    id: 14,
+    imgUrl: "/assets/img/australia/.jpg",
+    hotelName: "",
+    hotelDescr: "",
+    siteLink: ""
+  },
+  {
+    id: 15,
+    imgUrl: "/assets/img/australia/.jpg",
+    hotelName: "",
+    hotelDescr: "",
+    siteLink: ""
+  },
+  {
+    id: 16,
+    imgUrl: "/assets/img/australia/.jpg",
+    hotelName: "",
+    hotelDescr: "",
+    siteLink: ""
+  },
+  {
+    id: 17,
+    imgUrl: "/assets/img/australia/.jpg",
+    hotelName: "",
+    hotelDescr: "",
+    siteLink: ""
+  },
+  {
+    id: 18,
+    imgUrl: "/assets/img/australia/.jpg",
     hotelName: "",
     hotelDescr: "",
     siteLink: ""

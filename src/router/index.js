@@ -3,6 +3,8 @@ import Home from '../pages/Home.vue'
 import About from '../pages/About.vue'
 import HotelDetail from '../pages/HotelDetail.vue'
 import Usa from '../pages/countries/Usa.vue'
+import Canada from '../pages/countries/Canada.vue'
+import Australia from '../pages/countries/Australia.vue'
 import Privacy from '../pages/Privacy.vue'
 import Terms from '../pages/Terms.vue'
 
@@ -33,6 +35,18 @@ const router = createRouter({
       name: 'USA',
       component: Usa,
       meta: {title: "USA - Hotels & Casino"}
+    },
+    {
+      path: '/canada',
+      name: 'Canada',
+      component: Canada,
+      meta: {title: "Canada - Hotels & Casino"}
+    },
+    {
+      path: '/australia',
+      name: 'Australia',
+      component: Australia,
+      meta: {title: "Australia - Hotels & Casino"}
     },
     {
       path: '/privacy',
