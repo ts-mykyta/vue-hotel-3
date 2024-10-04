@@ -15,50 +15,50 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: Home,
-      meta: {title: "Home - Hotels & Casino"}
+      meta: {title: "Home - Hotels & Casinos Top"}
     },
     {
       path: '/about',
       name: 'about',
       component: About,
-      meta: {title: "About Us - Hotels & Casino"}
+      meta: {title: "About Us - Hotels & Casinos Top"}
     },
     {
       path: '/hotel/:id',
       name: 'HotelDetail',
       component: HotelDetail,
       props: true,
-      meta: {title: "Details - Hotels & Casino"}
+      meta: {title: "Details - Hotels & Casinos Top"}
     },
     {
       path: '/usa',
       name: 'USA',
       component: Usa,
-      meta: {title: "USA - Hotels & Casino"}
+      meta: {title: "USA - Hotels & Casinos Top"}
     },
     {
       path: '/canada',
       name: 'Canada',
       component: Canada,
-      meta: {title: "Canada - Hotels & Casino"}
+      meta: {title: "Canada - Hotels & Casinos Top"}
     },
     {
       path: '/australia',
       name: 'Australia',
       component: Australia,
-      meta: {title: "Australia - Hotels & Casino"}
+      meta: {title: "Australia - Hotels & Casinos Top"}
     },
     {
       path: '/privacy',
       name: 'privacy',
       component: Privacy,
-      meta: {title: "Privacy Policy - Hotels & Casino"}
+      meta: {title: "Privacy Policy - Hotels & Casinos Top"}
     },
     {
       path: '/terms',
       name: 'terms',
       component: Terms,
-      meta: {title: "Terms - Hotels & Casino"}
+      meta: {title: "Terms - Hotels & Casinos Top"}
     },
   ],
   scrollBehavior(to, from, savedPosition) {
