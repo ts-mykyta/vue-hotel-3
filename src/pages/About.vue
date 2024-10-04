@@ -45,6 +45,9 @@ import Footer from '../components/FooterLayout.vue'
 <style scoped lang="sass">
 @import "../assets/styles/main"
 
+section 
+    margin-bottom: 40px
+
 .main
     padding: 50px 0
 
@@ -52,6 +55,7 @@ import Footer from '../components/FooterLayout.vue'
 .text
     background: $white
     padding: 10px
+    line-height: 1.5em
     @media (min-width: 768px)
         padding: 80px
 
