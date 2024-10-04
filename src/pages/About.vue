@@ -10,7 +10,7 @@ import Footer from '../components/FooterLayout.vue'
         <div class="text">
             <section>
                 <h1>ABOUT US</h1>
-                <p>Welcome to Hotels & Casinos, your ultimate online guide for discovering the finest hotels and casinos worldwide. Our passion lies in providing detailed, current information on the best gaming and hospitality establishments worldwide. At Hotels & Casinos, finding the ideal destination for your gaming and leisure needs can be overwhelming. That’s why we strive to present a curated selection of the top hotels and casinos, making your choices more straightforward and your experiences unforgettable.</p>
+                <p>Welcome to Hotels & Casinos Top, your ultimate online guide for discovering the finest hotels and casinos worldwide. Our passion lies in providing detailed, current information on the best gaming and hospitality establishments worldwide. At Hotels & Casinos Top, finding the ideal destination for your gaming and leisure needs can be overwhelming. That’s why we strive to present a curated selection of the top hotels and casinos, making your choices more straightforward and your experiences unforgettable.</p>
             </section>
             
             <section>
