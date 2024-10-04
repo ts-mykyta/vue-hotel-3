@@ -29,6 +29,12 @@ function closePopup() {
                 </router-link>
             </div>
 
+            <div class="footer__contact">
+                <a href="mailto:info@hotelscasinotop.com" class="footer__contact-email">info@hotelscasinotop.com</a>
+                <a href="tel:+61396507226" class="footer__contact-tel">Phone: +6.139.6507.226</a>
+                <span class="footer__contact-address">Address: 368 Collins St, Melbourne VIC 3000</span>
+            </div>
+
             <ul class="footer__menu">
                 <li class="header__menu-link">
                     <router-link to="/about" exact-active-class="header__menu-link--active">
@@ -77,6 +83,16 @@ function closePopup() {
         text-transform: uppercase
         text-align: center
         margin-bottom: 10px
+
+    &__contact
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 10px
+        margin-bottom: 20px
+
+        span
+            text-align: center
 
     &__menu 
         display: flex
